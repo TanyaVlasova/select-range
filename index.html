@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form class="form" name="selectRangeForm" action="" method="get" enctype="text/plain">
+        <input class="form__value js-value" name="valueStart" type="number">
+        <input class="form__value js-value" name="valueEnd" type="number">
+        <div class="widget form__widget js-widget">
+            <div class="widget__controller js-controller-start"></div>
+            <div class="widget__selected-range js-selected-range"></div>
+            <div class="widget__controller js-controller-end"></div>
+        </div>
+        <input class="form__submit" name="submit" type="submit" value="save">     
+    </form>
+</body>
+</html>
